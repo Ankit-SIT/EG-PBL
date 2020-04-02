@@ -11,7 +11,9 @@ while( not exit):
  print("1. CIRCLE")
  print("2. POLYGON")
  print("3. LINE")
- print("4. EXIT")
+ print("4. RECTANGLE")
+ print("5 .ANGLED LINE")
+ print("6.EXIT")
  choice = int(input('Choice:'))
  
  if(choice == 1):
@@ -29,6 +31,16 @@ while( not exit):
     AnkitDraw.line(l,angle)
 
  elif(choice == 4):
+   l = int(input('Length: '))
+   b = int(input('Breadth: '))
+   AnkitDraw.rect(l,b)
+ 
+ elif(choice == 5):
+    l = int(input('Length: '))
+    angle = int(input('Angle: '))
+    AnkitDraw.aLine(l,angle)
+
+ elif(choice == 6):
      exit = True
 
  else:
