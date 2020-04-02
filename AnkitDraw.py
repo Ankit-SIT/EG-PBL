@@ -12,11 +12,26 @@ def polygon(n,base):
 def circle(r):
     cursor.circle(r)
 
-def line(length,angle):
+def aLine(length,angle):
     cursor.forward(200)
     cursor.backward(100)
     cursor.left(angle)
     cursor.forward(length)
+
+def line(length,angle):
+    cursor.left(angle)
+    cursor.forward(length)
+
+def rect(l,b):
+ cursor.forward(l)
+ cursor.left(90)
+ cursor.forward(b)
+ cursor.left(90)
+ cursor.forward(l)
+ cursor.left(90)
+ cursor.forward(b)
+ cursor.left(90)
+ 
 
 
 
