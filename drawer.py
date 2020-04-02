@@ -8,7 +8,7 @@ exit = False
 
 while( not exit):
  print("AnkitVIEW")
- print("=========",end='\n\n\n')
+ print("=========")
  print("1. CIRCLE")
  print("2. POLYGON")
  print("3. LINE")
@@ -16,7 +16,7 @@ while( not exit):
  print("5. ANGLED LINE")
  print("6. EXIT")
  choice = int(input('Choice:'))
- print("\n\n\n")
+ print("\n\n")
  
  if(choice == 1):
     l = int(input('Radius: '))
