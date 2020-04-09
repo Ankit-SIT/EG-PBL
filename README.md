@@ -16,3 +16,12 @@ Make sure you have Python 3 installed.
 for help, contact ankit.das.btech2019@sitpune.edu.in                                                     
 or                                    
 https://github.com/nkitan
+
+
+OUTPUT
+------
+![Main Screen](/output/initial.jpg?raw=true "Title")
+![Polygon](/output/polygon.jpg?raw=true "Title")
+![Line](/output/line.jpg?raw=true "Title")
+![Circle](/output/circle.jpg?raw=true "Title")
+![Rectangle](/output/Rectangle.jpg?raw=true "Title")
